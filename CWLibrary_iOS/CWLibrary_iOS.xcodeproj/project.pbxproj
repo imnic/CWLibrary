@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083D3E8C18800AC00084A42F /* NSDictionary+Coldworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083D3E7A18800AC00084A42F /* NSDictionary+Coldworks.m */; };
+		083D3E8D18800AC00084A42F /* NSString+Coldworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083D3E7D18800AC00084A42F /* NSString+Coldworks.m */; };
+		083D3E8E18800AC00084A42F /* UIImage+Coldworks.m in Sources */ = {isa = PBXBuildFile; fileRef = 083D3E8018800AC00084A42F /* UIImage+Coldworks.m */; };
+		083D3E8F18800AC00084A42F /* UIViewController+Tips.m in Sources */ = {isa = PBXBuildFile; fileRef = 083D3E8318800AC00084A42F /* UIViewController+Tips.m */; };
+		083D3E9018800AC00084A42F /* CWStringValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 083D3E8818800AC00084A42F /* CWStringValidator.m */; };
+		083D3E9118800AC00084A42F /* UIImageUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 083D3E8B18800AC00084A42F /* UIImageUtility.m */; };
+		08B21951187D49C8008CB7EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B21950187D49C8008CB7EC /* Foundation.framework */; };
+		08B2195F187D49C8008CB7EC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B2195E187D49C8008CB7EC /* XCTest.framework */; };
+		08B21960187D49C8008CB7EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B21950187D49C8008CB7EC /* Foundation.framework */; };
+		08B21962187D49C8008CB7EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B21961187D49C8008CB7EC /* UIKit.framework */; };
+		08B21965187D49C8008CB7EC /* libCWLibrary_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B2194D187D49C8008CB7EC /* libCWLibrary_iOS.a */; };
+		08B2196B187D49C8008CB7EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08B21969187D49C8008CB7EC /* InfoPlist.strings */; };
+		08B2196D187D49C8008CB7EC /* CWLibrary_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B2196C187D49C8008CB7EC /* CWLibrary_iOSTests.m */; };
+		08B219D2187D522B008CB7EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B219D1187D522B008CB7EC /* UIKit.framework */; };
+		08B219D4187D5288008CB7EC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B219D3187D5288008CB7EC /* CoreData.framework */; };
+		D63CA04666FB4898B7290FB5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DE07D17C524065B4FA0F60 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B21963187D49C8008CB7EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B21945187D49C8008CB7EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B2194C187D49C8008CB7EC;
+			remoteInfo = CWLibrary_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08B2194B187D49C8008CB7EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		083D3E7918800AC00084A42F /* NSDictionary+Coldworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Coldworks.h"; sourceTree = "<group>"; };
+		083D3E7A18800AC00084A42F /* NSDictionary+Coldworks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Coldworks.m"; sourceTree = "<group>"; };
+		083D3E7C18800AC00084A42F /* NSString+Coldworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Coldworks.h"; sourceTree = "<group>"; };
+		083D3E7D18800AC00084A42F /* NSString+Coldworks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Coldworks.m"; sourceTree = "<group>"; };
+		083D3E7F18800AC00084A42F /* UIImage+Coldworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Coldworks.h"; sourceTree = "<group>"; };
+		083D3E8018800AC00084A42F /* UIImage+Coldworks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Coldworks.m"; sourceTree = "<group>"; };
+		083D3E8218800AC00084A42F /* UIViewController+Tips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tips.h"; sourceTree = "<group>"; };
+		083D3E8318800AC00084A42F /* UIViewController+Tips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tips.m"; sourceTree = "<group>"; };
+		083D3E8418800AC00084A42F /* CWLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLibrary.h; sourceTree = "<group>"; };
+		083D3E8718800AC00084A42F /* CWStringValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWStringValidator.h; sourceTree = "<group>"; };
+		083D3E8818800AC00084A42F /* CWStringValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWStringValidator.m; sourceTree = "<group>"; };
+		083D3E8A18800AC00084A42F /* UIImageUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageUtility.h; sourceTree = "<group>"; };
+		083D3E8B18800AC00084A42F /* UIImageUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageUtility.m; sourceTree = "<group>"; };
+		08B2194D187D49C8008CB7EC /* libCWLibrary_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCWLibrary_iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B21950187D49C8008CB7EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08B21954187D49C8008CB7EC /* CWLibrary_iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CWLibrary_iOS-Prefix.pch"; sourceTree = "<group>"; };
+		08B2195D187D49C8008CB7EC /* CWLibrary_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWLibrary_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B2195E187D49C8008CB7EC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08B21961187D49C8008CB7EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		08B21968187D49C8008CB7EC /* CWLibrary_iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CWLibrary_iOSTests-Info.plist"; sourceTree = "<group>"; };
+		08B2196A187D49C8008CB7EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08B2196C187D49C8008CB7EC /* CWLibrary_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWLibrary_iOSTests.m; sourceTree = "<group>"; };
+		08B219D1187D522B008CB7EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08B219D3187D5288008CB7EC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25DE07D17C524065B4FA0F60 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36489D33331E4D63AB914E00 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B2194A187D49C8008CB7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B219D4187D5288008CB7EC /* CoreData.framework in Frameworks */,
+				08B219D2187D522B008CB7EC /* UIKit.framework in Frameworks */,
+				08B21951187D49C8008CB7EC /* Foundation.framework in Frameworks */,
+				D63CA04666FB4898B7290FB5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B2195A187D49C8008CB7EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B2195F187D49C8008CB7EC /* XCTest.framework in Frameworks */,
+				08B21965187D49C8008CB7EC /* libCWLibrary_iOS.a in Frameworks */,
+				08B21962187D49C8008CB7EC /* UIKit.framework in Frameworks */,
+				08B21960187D49C8008CB7EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083D3E7618800AC00084A42F /* CWLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E8418800AC00084A42F /* CWLibrary.h */,
+				083D3E7718800AC00084A42F /* Category */,
+				083D3E8518800AC00084A42F /* Utility */,
+			);
+			path = CWLibrary;
+			sourceTree = "<group>";
+		};
+		083D3E7718800AC00084A42F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E7818800AC00084A42F /* NSDictionary */,
+				083D3E7B18800AC00084A42F /* NSString */,
+				083D3E7E18800AC00084A42F /* UIImage */,
+				083D3E8118800AC00084A42F /* UIViewController */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		083D3E7818800AC00084A42F /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E7918800AC00084A42F /* NSDictionary+Coldworks.h */,
+				083D3E7A18800AC00084A42F /* NSDictionary+Coldworks.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		083D3E7B18800AC00084A42F /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E7C18800AC00084A42F /* NSString+Coldworks.h */,
+				083D3E7D18800AC00084A42F /* NSString+Coldworks.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		083D3E7E18800AC00084A42F /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E7F18800AC00084A42F /* UIImage+Coldworks.h */,
+				083D3E8018800AC00084A42F /* UIImage+Coldworks.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		083D3E8118800AC00084A42F /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E8218800AC00084A42F /* UIViewController+Tips.h */,
+				083D3E8318800AC00084A42F /* UIViewController+Tips.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		083D3E8518800AC00084A42F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E8618800AC00084A42F /* CWStringValidator */,
+				083D3E8918800AC00084A42F /* UIImageUtility */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		083D3E8618800AC00084A42F /* CWStringValidator */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E8718800AC00084A42F /* CWStringValidator.h */,
+				083D3E8818800AC00084A42F /* CWStringValidator.m */,
+			);
+			path = CWStringValidator;
+			sourceTree = "<group>";
+		};
+		083D3E8918800AC00084A42F /* UIImageUtility */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E8A18800AC00084A42F /* UIImageUtility.h */,
+				083D3E8B18800AC00084A42F /* UIImageUtility.m */,
+			);
+			path = UIImageUtility;
+			sourceTree = "<group>";
+		};
+		08B21944187D49C8008CB7EC = {
+			isa = PBXGroup;
+			children = (
+				08B21952187D49C8008CB7EC /* CWLibrary_iOS */,
+				08B21966187D49C8008CB7EC /* CWLibrary_iOSTests */,
+				08B2194F187D49C8008CB7EC /* Frameworks */,
+				08B2194E187D49C8008CB7EC /* Products */,
+				36489D33331E4D63AB914E00 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		08B2194E187D49C8008CB7EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B2194D187D49C8008CB7EC /* libCWLibrary_iOS.a */,
+				08B2195D187D49C8008CB7EC /* CWLibrary_iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B2194F187D49C8008CB7EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B219D3187D5288008CB7EC /* CoreData.framework */,
+				08B219D1187D522B008CB7EC /* UIKit.framework */,
+				08B21950187D49C8008CB7EC /* Foundation.framework */,
+				08B2195E187D49C8008CB7EC /* XCTest.framework */,
+				08B21961187D49C8008CB7EC /* UIKit.framework */,
+				25DE07D17C524065B4FA0F60 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08B21952187D49C8008CB7EC /* CWLibrary_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				083D3E7618800AC00084A42F /* CWLibrary */,
+				08B21953187D49C8008CB7EC /* Supporting Files */,
+			);
+			path = CWLibrary_iOS;
+			sourceTree = "<group>";
+		};
+		08B21953187D49C8008CB7EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B21954187D49C8008CB7EC /* CWLibrary_iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08B21966187D49C8008CB7EC /* CWLibrary_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				08B2196C187D49C8008CB7EC /* CWLibrary_iOSTests.m */,
+				08B21967187D49C8008CB7EC /* Supporting Files */,
+			);
+			path = CWLibrary_iOSTests;
+			sourceTree = "<group>";
+		};
+		08B21967187D49C8008CB7EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B21968187D49C8008CB7EC /* CWLibrary_iOSTests-Info.plist */,
+				08B21969187D49C8008CB7EC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08B2194C187D49C8008CB7EC /* CWLibrary_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B21970187D49C8008CB7EC /* Build configuration list for PBXNativeTarget "CWLibrary_iOS" */;
+			buildPhases = (
+				72F4CA941C8E486C8F36E414 /* Check Pods Manifest.lock */,
+				08B21949187D49C8008CB7EC /* Sources */,
+				08B2194A187D49C8008CB7EC /* Frameworks */,
+				08B2194B187D49C8008CB7EC /* CopyFiles */,
+				1FD7A0350CB546539AF5E679 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWLibrary_iOS;
+			productName = CWLibrary_iOS;
+			productReference = 08B2194D187D49C8008CB7EC /* libCWLibrary_iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		08B2195C187D49C8008CB7EC /* CWLibrary_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B21973187D49C8008CB7EC /* Build configuration list for PBXNativeTarget "CWLibrary_iOSTests" */;
+			buildPhases = (
+				08B21959187D49C8008CB7EC /* Sources */,
+				08B2195A187D49C8008CB7EC /* Frameworks */,
+				08B2195B187D49C8008CB7EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B21964187D49C8008CB7EC /* PBXTargetDependency */,
+			);
+			name = CWLibrary_iOSTests;
+			productName = CWLibrary_iOSTests;
+			productReference = 08B2195D187D49C8008CB7EC /* CWLibrary_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B21945187D49C8008CB7EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ly;
+			};
+			buildConfigurationList = 08B21948187D49C8008CB7EC /* Build configuration list for PBXProject "CWLibrary_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08B21944187D49C8008CB7EC;
+			productRefGroup = 08B2194E187D49C8008CB7EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B2194C187D49C8008CB7EC /* CWLibrary_iOS */,
+				08B2195C187D49C8008CB7EC /* CWLibrary_iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B2195B187D49C8008CB7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B2196B187D49C8008CB7EC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD7A0350CB546539AF5E679 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72F4CA941C8E486C8F36E414 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B21949187D49C8008CB7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083D3E8D18800AC00084A42F /* NSString+Coldworks.m in Sources */,
+				083D3E9018800AC00084A42F /* CWStringValidator.m in Sources */,
+				083D3E8C18800AC00084A42F /* NSDictionary+Coldworks.m in Sources */,
+				083D3E8F18800AC00084A42F /* UIViewController+Tips.m in Sources */,
+				083D3E9118800AC00084A42F /* UIImageUtility.m in Sources */,
+				083D3E8E18800AC00084A42F /* UIImage+Coldworks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B21959187D49C8008CB7EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B2196D187D49C8008CB7EC /* CWLibrary_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B21964187D49C8008CB7EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08B2194C187D49C8008CB7EC /* CWLibrary_iOS */;
+			targetProxy = 08B21963187D49C8008CB7EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08B21969187D49C8008CB7EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B2196A187D49C8008CB7EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08B2196E187D49C8008CB7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08B2196F187D49C8008CB7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08B21971187D49C8008CB7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36489D33331E4D63AB914E00 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/CWLibrary_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CWLibrary_iOS/CWLibrary_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		08B21972187D49C8008CB7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36489D33331E4D63AB914E00 /* Pods.xcconfig */;
+			buildSettings = {
+				DSTROOT = /tmp/CWLibrary_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CWLibrary_iOS/CWLibrary_iOS-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08B21974187D49C8008CB7EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CWLibrary_iOS/CWLibrary_iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CWLibrary_iOSTests/CWLibrary_iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08B21975187D49C8008CB7EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CWLibrary_iOS/CWLibrary_iOS-Prefix.pch";
+				INFOPLIST_FILE = "CWLibrary_iOSTests/CWLibrary_iOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B21948187D49C8008CB7EC /* Build configuration list for PBXProject "CWLibrary_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B2196E187D49C8008CB7EC /* Debug */,
+				08B2196F187D49C8008CB7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B21970187D49C8008CB7EC /* Build configuration list for PBXNativeTarget "CWLibrary_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B21971187D49C8008CB7EC /* Debug */,
+				08B21972187D49C8008CB7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B21973187D49C8008CB7EC /* Build configuration list for PBXNativeTarget "CWLibrary_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B21974187D49C8008CB7EC /* Debug */,
+				08B21975187D49C8008CB7EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08B21945187D49C8008CB7EC /* Project object */;
+}
